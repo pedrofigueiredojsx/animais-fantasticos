@@ -8,7 +8,7 @@ export default class Modal {
     // fazer referencia ao objeto
     // da classe
     this.eventToggleModal = this.eventToggleModal.bind(this);
-    this.cliqueForaModal = this.eventToggleModal.bind(this);
+    this.cliqueForaModal = this.cliqueForaModal.bind(this);
   }
 
   // abre ou fecha o modal
